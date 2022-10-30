@@ -1,0 +1,22 @@
+public class Main {
+    public static void main(String[] args) {
+        int M = 67760;
+        int D = 83690;
+    int K = 76230;
+    double M2 = 1.1*M;
+    double D2 = 1.1*D;
+    double K2 = 1.1*K;
+int Mg1 = M*12;
+int Dg1 = D*12;
+int Kg1 = K*12;
+        double Mg2 = M2*12;
+        double Dg2 = D2*12;
+        double Kg2 = K2*12;
+        double raznM = Mg2-Mg1;
+        double raznD = Dg2-Dg1;
+        double raznK = Kg2-Kg1;
+        System.out.println("Маша теперь получает "+M2+" рублей. Годовой доход вырос на "+raznM+" рублей");
+        System.out.println("Денис теперь получает "+D2+" рублей. Годовой доход вырос на "+raznD+" рублей");
+        System.out.println("Маша теперь получает "+K2+" рублей. Годовой доход вырос на "+raznK+" рублей");
+    }
+    }
